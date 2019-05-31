@@ -4197,6 +4197,7 @@ DirectoryIndex index.htm
 		<Item Name="File Indexer.vi" Type="VI" URL="../SubVIs/File Indexer.vi"/>
 		<Item Name="Data Parser.vi" Type="VI" URL="../SubVIs/Data Parser.vi"/>
 		<Item Name="WebDAV address (global).vi" Type="VI" URL="../SubVIs/WebDAV address (global).vi"/>
+		<Item Name="New Server Test.vi" Type="VI" URL="../debug/New Server Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CANCloseInterface.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANCloseInterface.vi"/>
