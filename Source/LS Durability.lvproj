@@ -223,7 +223,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.103</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.133</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3758,6 +3758,7 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="rio.html" Type="Document" URL="../rio.html"/>
+		<Item Name="rio2.html" Type="Document" URL="../rio2.html"/>
 		<Item Name="FPGA_Reference.ctl" Type="VI" URL="../Controls/FPGA_Reference.ctl"/>
 		<Item Name="LS Data.ctl" Type="VI" URL="../Type Defs/LS Data.ctl"/>
 		<Item Name="LS Data Loop.vi" Type="VI" URL="../SubVIs/LS Data Loop.vi"/>
@@ -4334,7 +4335,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9741BF63-4FF8-4FC4-B008-74A2C2271CBD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FFDC1754-9236-4764-BB2C-D403E9F3C024}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO/rio.html</Property>
@@ -4450,6 +4451,51 @@ DirectoryIndex index.htm
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 TI Automotive</Property>
 				<Property Name="TgtF_productName" Type="Str">LS One Hour Data</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AA95FFE6-033A-487B-84D8-0AF9BF91FEB9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+			<Item Name="LS Acquisition" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8F2E378E-DD4F-47E5-BD38-82DD50BE568F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E779FDC5-F04B-4616-9309-7384EA9C0435}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E057D9AC-1067-47C6-B376-EFEA5BA67B83}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LS Acquisition</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/LS Acquisition</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{415B6859-8F58-41F6-9B36-B238BAAB0969}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/startup/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FFDC1754-9236-4764-BB2C-D403E9F3C024}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO/rio2.html</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO/LS Acquisition Main (RT).vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">TI Automotive</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LS Acquisition</Property>
+				<Property Name="TgtF_internalName" Type="Str">LS Acquisition</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 TI Automotive</Property>
+				<Property Name="TgtF_productName" Type="Str">LS Acquisition</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8A0CE126-CA0C-4021-9668-0AE4FB861ADF}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
