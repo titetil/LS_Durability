@@ -223,7 +223,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.133</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.108</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3314,14 +3314,6 @@ DirectoryIndex index.htm
 					<Property Name="NI.LV.FPGA.Version" Type="Int">9</Property>
 					<Property Name="Type Descriptor" Type="Str">1000800000000001000940050002553800000100000000000000</Property>
 				</Item>
-				<Item Name="RMC" Type="RIO Mezzanine Card">
-					<Property Name="crio.Calibration" Type="Str">1</Property>
-					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
-					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
-					<Property Name="crio.Type" Type="Str">Digital</Property>
-					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{65DF63BF-FF19-41EE-9229-57E896519644}</Property>
-				</Item>
 				<Item Name="Running Avg Memory" Type="FPGA Memory Block">
 					<Property Name="FPGA.PersistentID" Type="Str">{007C08DE-55FE-4F07-AA0D-4EB13BDF046D}</Property>
 					<Property Name="fullEmulation" Type="Bool">false</Property>
@@ -3409,6 +3401,14 @@ DirectoryIndex index.htm
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">9</Property>
 					<Property Name="Type Descriptor" Type="Str">1000800000000001000940050002553800000100000000000000</Property>
+				</Item>
+				<Item Name="RMC" Type="RIO Mezzanine Card">
+					<Property Name="crio.Calibration" Type="Str">1</Property>
+					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
+					<Property Name="crio.Type" Type="Str">Digital</Property>
+					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{65DF63BF-FF19-41EE-9229-57E896519644}</Property>
 				</Item>
 				<Item Name="FlowRestarts" Type="FPGA Memory Block">
 					<Property Name="FPGA.PersistentID" Type="Str">{0BC83A9C-8C37-4274-929A-E1B3A8E0526C}</Property>
